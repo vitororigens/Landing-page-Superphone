@@ -58,7 +58,7 @@ table {
 	margin: 25px auto;
 }
 
-#header{
+header{
     grid-area: header;
 	height: 40px;
 	display: flex;
@@ -67,4 +67,30 @@ table {
 
 nav{
 	flex-grow: 1;
+}
+
+article{
+	grid-area: article;
+}
+
+
+picture{
+	grid-area: picture;
+	justify-self: end;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 23px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f4891f;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 0 5px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }

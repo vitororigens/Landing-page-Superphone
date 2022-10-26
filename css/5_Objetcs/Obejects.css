@@ -21,21 +21,6 @@
     padding: 10px 15px;
 }
 
-button{
-    width: 150px;
-    height: 40px;
-    border-radius: 23px;
-    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
-    background-color: #f4891f;
-    color: #fff;
-    border: none;
-    font-size: 12px;
-    cursor: pointer;
-    margin-left: 5px;
-    padding: 0 5px;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-}
 
 button > img{
     height: 20px;
@@ -47,10 +32,35 @@ button:hover{
     background-color: #8a378d;
 }
 
-#btn-bag{
-    background-color: #488cf5;
+#article > span {
+    width: 444px;
+    height: 343px;
+    opacity: 0.35;
+    font-size: 288px;
+    font-weight: bold;
+    letter-spacing: 80px;
+    text-align: center;
+    color: #dbdbdb;
+    position: absolute;
+    z-index: -1;
+    margin-top: 90px;
 }
 
-#btn-bag:hover{
-    background-color: #8a378d;
+#article > h1{
+    width: 504px;
+    height: 183px;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    color: #488cf5;
+    margin-top: 130px;
+}
+
+#article > h2{
+    width: 512.4px;
+    height: 90.7px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #adadad;
 }
